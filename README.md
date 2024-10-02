@@ -24,11 +24,16 @@ The program accepts the following command-line arguments:
    ```bash
    ./program -binary 1101 -bits 4
 
+2. **Decimal to Binary Conversion**:
+   ```bash
+   ./BinStringConverter -binary 1101 -bits 4
+   
 ## Compilation
 
 To compile the program, use:
-gcc -o program main.c
-
+  ```bash
+  gcc BinStringConverter -o BinStringConverter.out
+  ```
 ## License
 
 This project is licensed under the MIT License.
